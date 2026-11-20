@@ -1,0 +1,96 @@
+{
+  "architecture": "MobileNetV2 ImageNet congelada + Dense128 L2 + Dropout0.45 + sigmoid10",
+  "image_size": 160,
+  "input": "RGB float32, 0–255; normalização incorporada ao modelo",
+  "classes": [
+    "Comminuted",
+    "Greenstick",
+    "Healthy",
+    "Linear",
+    "Oblique Displaced",
+    "Oblique",
+    "Segmental",
+    "Spiral",
+    "Transverse Displaced",
+    "Transverse"
+  ],
+  "task": "multilabel image classification; não é detector de bounding boxes",
+  "threshold": 0.40000000000000013,
+  "seed": 42,
+  "epochs_executed": 8,
+  "best_epoch_val_loss": 1,
+  "metrics": {
+    "train": {
+      "n_images": 916,
+      "n_groups": 146,
+      "subset_accuracy": 0.14519650655021835,
+      "f1_macro": 0.5008718550992125,
+      "f1_micro": 0.5066666666666667,
+      "precision_macro": 0.42678043496141216,
+      "recall_macro": 0.7938435331178801,
+      "hamming_loss": 0.17368995633187773,
+      "average_precision_macro": 0.6824961060181721,
+      "baseline_f1_macro": 0.06184012066365008,
+      "baseline_subset_accuracy": 0.4028384279475983
+    },
+    "valid": {
+      "n_images": 328,
+      "n_groups": 49,
+      "subset_accuracy": 0.08841463414634146,
+      "f1_macro": 0.267180921463104,
+      "f1_micro": 0.3979848866498741,
+      "precision_macro": 0.19694742086405706,
+      "recall_macro": 0.5122949232137247,
+      "hamming_loss": 0.21859756097560976,
+      "average_precision_macro": 0.3180504610970976,
+      "baseline_f1_macro": 0.06304801670146137,
+      "baseline_subset_accuracy": 0.3902439024390244
+    },
+    "test": {
+      "n_images": 292,
+      "n_groups": 49,
+      "subset_accuracy": 0.1095890410958904,
+      "f1_macro": 0.21911183279472524,
+      "f1_micro": 0.3005893909626719,
+      "precision_macro": 0.1571972106387073,
+      "recall_macro": 0.39569390541257554,
+      "hamming_loss": 0.24383561643835616,
+      "average_precision_macro": 0.21667062547200938,
+      "baseline_f1_macro": 0.04216216216216216,
+      "baseline_subset_accuracy": 0.2226027397260274
+    }
+  },
+  "test_f1_macro_group_bootstrap_95pct": [
+    0.1598756517708868,
+    0.26168815059077577
+  ],
+  "class_positive_weights": {
+    "Comminuted": 7.8932037353515625,
+    "Greenstick": 12.0,
+    "Healthy": 12.0,
+    "Linear": 12.0,
+    "Oblique Displaced": 3.144796371459961,
+    "Oblique": 12.0,
+    "Segmental": 12.0,
+    "Spiral": 12.0,
+    "Transverse Displaced": 1.2341463565826416,
+    "Transverse": 12.0
+  },
+  "limitations": [
+    "sem validação clínica",
+    "sem IDs de pacientes",
+    "grupos inferidos de nomes e pixels",
+    "raras classes têm poucos grupos"
+  ],
+  "model_sha256": "0d55840943af53562f4df64c3258cf173442edfa6cc09108ddbf1c8ebca33c32",
+  "python": "3.12.0",
+  "versions": {
+    "tensorflow-cpu": "2.21.0",
+    "keras": "3.15.1",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "opencv-python-headless": "4.10.0.84"
+  },
+  "baseline": "classe mais prevalente no treino: Transverse Displaced"
+}

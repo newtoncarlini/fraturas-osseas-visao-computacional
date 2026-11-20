@@ -1,0 +1,10 @@
+{
+  "status": "aprovado",
+  "split_sem_grupos_compartilhados": true,
+  "metricas_recalculadas": true,
+  "modelo_recarregado_mesmas_previsoes": true,
+  "gradcam_finito": true,
+  "app_inicial_sem_excecoes": true,
+  "notebook_publico_sem_saidas_de_radiografias": true,
+  "teste_imagens": 292
+}

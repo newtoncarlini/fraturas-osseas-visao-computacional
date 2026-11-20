@@ -1,0 +1,7 @@
+image,class_visualized,image_f1,heat_nonzero,class_in_ground_truth,heat_mean
+9_mri_0_6324_jpeg.rf.43c1ba464b8d0d0806a22656dc6c1a6b.jpg,Comminuted,1.0,True,True,0.4157210886478424
+25_mri_0_1295_jpeg.rf.bdf9f8edcada182bb54973e0290e4daf.jpg,Comminuted,1.0,True,True,0.3880186975002289
+14_mri_0_1114_jpeg.rf.dafb8f8a14f7634202e45e0cea226192.jpg,Comminuted,1.0,True,True,0.3101513385772705
+142_jpg.rf.8c77c58dde2a59f4ce9fa5802c3f315b.jpg,Oblique,0.0,True,False,0.1440286785364151
+223_jpg.rf.973a0f25a1b390fb400a5b4a098ba5cb.jpg,Transverse Displaced,0.0,True,False,0.27897363901138306
+225_jpg.rf.001a53ddf0fc637b0ebefcaa209158f7.jpg,Oblique Displaced,0.0,True,False,0.2652375102043152

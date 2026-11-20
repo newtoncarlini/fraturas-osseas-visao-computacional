@@ -1,0 +1,20 @@
+{
+  "images": 1539,
+  "used_images": 1536,
+  "empty_images_excluded": 3,
+  "multilabel_images": 113,
+  "groups": 244,
+  "groups_crossing_original_splits": 100,
+  "exact_duplicate_excess": 0,
+  "annotation_issues": 0,
+  "split_sizes": {
+    "train": 916,
+    "valid": 328,
+    "test": 292
+  },
+  "source": "https://cdn3.gnarususercontent.com.br/5327-checkpoint/Human%20Bone%20Fractures%20Multi-modal%20Image%20Dataset%20%28HBFMID%29.zip",
+  "zip_sha256": "2245324d88560ee84eb5c90a0754447baffd0f77465eb19a5affdf8da2fac5f0",
+  "group_rule": "prefixo antes de .rf. OU hash de pixels idênticos, união transitiva",
+  "limitation": "Não há IDs de pacientes. Nomes podem colidir; agrupamento conservador não garante independência entre pacientes.",
+  "license_in_archive": "Private; imagens originais e grids mantidos fora do versionamento"
+}

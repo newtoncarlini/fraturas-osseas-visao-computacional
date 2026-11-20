@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+data/raw/
+data/dataset.zip
+data/cache/
+reports/private_figures/
+notebooks/*_local.ipynb
+reports/*_log.txt

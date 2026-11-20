@@ -1,0 +1,4 @@
+split,Comminuted,Greenstick,Healthy,Linear,Oblique Displaced,Oblique,Segmental,Spiral,Transverse Displaced,Transverse
+train,103,50,37,9,221,35,11,39,410,62
+valid,32,19,16,3,81,9,7,21,151,28
+test,45,23,11,10,80,13,3,14,78,34
